@@ -16,13 +16,13 @@
 - **Дедупликация на лету** — встроенная проверка по URL, один товар не попадает в CSV дважды даже если Bitrix разместил его в нескольких категориях
 - **Обход защит** — `curl_cffi` с эмуляцией TLS-отпечатка Chrome 124
 
-## 📦 Структура проекта
+##  Структура проекта
 
-LiksirParser/
-├── main.py # Основной парсер (production-ready)
-├── .gitignore # Исключения для Git
-├── README.md # Этот файл
-├── liksir_full_catalog.csv # Результат парсинга (генерируется)
-├── done_categories.txt # Список обработанных категорий (для resume)
-├── failed_urls.txt # URL, которые не удалось загрузить
-└── parser.log # Лог работы
+    LiksirParser/
+    ├── main.py                 # Основной парсер (production-ready)
+    ├── .gitignore              # Исключения для Git
+    ├── README.md               # Этот файл
+    ├── liksir_full_catalog.csv # Результат парсинга (генерируется)
+    ├── done_categories.txt     # Список обработанных категорий (для resume)
+    ├── failed_urls.txt         # URL, которые не удалось загрузить
+    └── parser.log              # Лог работы
